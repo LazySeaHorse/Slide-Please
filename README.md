@@ -20,10 +20,22 @@ git clone https://github.com/LazySeaHorse/Slide-Please.git
 cd Slide-Please
 ```
 
-2. Install required dependencies:
+2. Create a virtual environment and install required dependencies:
 ```bash
+# On Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# On macOS/Linux
+python3 -m venv .venv
+source .venv/bin/activate
+
 pip install tkinter pyautogui pvporcupine pyaudio
 ```
+
+> [!NOTE]
+> Always activate the virtual environment with `.venv\Scripts\activate` or the Linux/macOS equivalent
+> I know this is a pain. But this _is_ a proof-of-conept typa thing ¯\_(ツ)_/¯
 
 ## Picovoice Setup (Step-by-Step)
 
