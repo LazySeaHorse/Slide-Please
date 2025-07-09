@@ -3,6 +3,9 @@
 A simple Python application that allows you to advance slides in presentations using a custom voice command. Built with Tkinter for the UI and Picovoice Porcupine for lightweight, local keyword detection.
 
 ### Features
+
+[![rhtgdf.png](https://i.postimg.cc/0Qjv2jYD/rhtgdf.png)](https://postimg.cc/t1KwBXm4)
+
 - Custom voice keyword detection
 - Multiple slide advancement key options
 - Lightweight and cross-platform
