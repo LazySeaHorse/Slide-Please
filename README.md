@@ -2,6 +2,9 @@
 
 A simple Python application that allows you to advance slides in presentations using a custom voice command. Built with Tkinter for the UI and Picovoice Porcupine for lightweight, local keyword detection.
 
+> [!NOTE]
+> Coded to life with some help from OpenAI o3
+
 ### Features
 
 [![rhtgdf.png](https://i.postimg.cc/0Qjv2jYD/rhtgdf.png)](https://postimg.cc/t1KwBXm4)
@@ -36,7 +39,7 @@ source .venv/bin/activate
 pip install tkinter pyautogui pvporcupine pyaudio
 ```
 
-> [!NOTE]
+> [!IMPORTANT]
 > Always activate the virtual environment with `.venv\Scripts\activate` or the Linux/macOS equivalent
 > I know this is a pain. But this _is_ a proof-of-conept typa thing ¯\_(ツ)_/¯
 
